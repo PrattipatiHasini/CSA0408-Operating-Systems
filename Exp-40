@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Linux File Permissions\n");
+    printf("r = Read (4)\n");
+    printf("w = Write (2)\n");
+    printf("x = Execute (1)\n\n");
+
+    printf("Users:\n");
+    printf("Owner (u)\n");
+    printf("Group (g)\n");
+    printf("Others (o)\n\n");
+
+    printf("Example: chmod 755 file\n");
+    printf("Owner : rwx\n");
+    printf("Group : r-x\n");
+    printf("Others: r-x\n");
+
+    return 0;
+}
