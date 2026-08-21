@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, indexBlock;
+
+    printf("Enter Index Block: ");
+    scanf("%d", &indexBlock);
+
+    printf("Enter Number of File Blocks: ");
+    scanf("%d", &n);
+
+    printf("Index Block %d contains:\n", indexBlock);
+
+    for(int i = 0; i < n; i++)
+    {
+        int block;
+        printf("Enter Block %d: ", i + 1);
+        scanf("%d", &block);
+
+        printf("%d -> %d\n", i + 1, block);
+    }
+
+    return 0;
+}
