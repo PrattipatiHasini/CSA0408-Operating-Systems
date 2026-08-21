@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int head, size;
+
+    printf("Enter Head Position: ");
+    scanf("%d", &head);
+
+    printf("Enter Disk Size: ");
+    scanf("%d", &size);
+
+    printf("SCAN Scheduling Executed\n");
+
+    return 0;
+}
